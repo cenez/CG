@@ -3,9 +3,9 @@
 
 void redimensionar(const int W, const int H) {
 	glViewport(0, 0, W, H);
-	glMatrixMode(GL_PROJECTION); //
-	glLoadIdentity(); //
-	glMatrixMode(GL_MODELVIEW); //
+	//glMatrixMode(GL_PROJECTION); // Define um modo de visao PROJECTION
+	glLoadIdentity(); // Carrega a matriz identidade
+	glMatrixMode(GL_MODELVIEW); // Define um modo de visao MODELVIEW
 }
 
 void inicializar(const int W, const int H, const color BG) {
