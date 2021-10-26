@@ -2,8 +2,10 @@
 #ifndef CORE_BASE_H
 #define CORE_BASE_H
 #include <iostream>
+#include <thread>
+#include <math.h>
 #include <GLFW/glfw3.h>
-#include <gl/glut.h>
+#include <GL/glut.h>
 #include "colors.h"
 #include "gl_controls.h"
 #include "data.h"
