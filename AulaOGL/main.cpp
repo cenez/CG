@@ -19,6 +19,10 @@ int main() {
 
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);//apagar cor e informacao de profundidade, para que possamos renderizar.
 
+		int width, height;
+		glfwGetFramebufferSize(window, &width, &height); // Para redimensionar a janela, maximizar ou minimizar
+		redimensionar(width, height);
+
 		move_control(angle, movex, movey, cx, cy, cz);
 		tetraedro();
 
