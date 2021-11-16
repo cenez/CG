@@ -24,7 +24,9 @@ int main() {
 		redimensionar(width, height);
 
 		move_control(angle, movex, movey, cx, cy, cz);
-		tetraedro();
+		//tetraedro();
+		circulo();
+
 
 		glfwSwapBuffers(window);// Troca entre front e back buffer.
 	}
